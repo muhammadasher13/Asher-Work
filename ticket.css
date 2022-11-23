@@ -1,0 +1,78 @@
+body{
+
+  background-color: rgb(237, 221, 215);
+  
+  }
+.heading{
+    position: relative;
+    color: black;
+    top: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .Jumbotron{
+    color:black;
+    margin-top: 120px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .gallery{
+    position: relative;
+    color: black;
+    top: 110px;
+    text-align: center;
+   }
+#sliderbtn{
+    position: relative;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:red;
+    color: white;
+    border-color: red;
+    border-radius: 10px;
+  }
+  #sliderbtn:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-radius: 10px;
+  }
+  #btn{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+  }
+   /* <!FOOTER> */
+
+.text-small {
+  font-size: 0.9rem;
+}
+.h1{
+  color: orange;
+  font-size: x-large;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: orange;
+}
+
+.form-control {
+  background: black;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+#footer{
+  background: #212529;
+  height: 210px;
+}

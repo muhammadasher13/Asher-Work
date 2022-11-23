@@ -1,0 +1,201 @@
+ body{
+
+  background-color: rgb(237, 221, 215);
+  
+  }
+ #sliderbtn{
+    position: relative;
+    top:-10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(48, 48, 48);
+    opacity: 80%;
+    color: white;
+  }
+  #sliderbtn:hover{
+    background-color: black;
+  }
+  #services{
+    background-color: black;
+    color: white;
+    margin-top: -140px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  }
+  #cardbtn{
+    position: relative;
+    margin-top:-30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(48, 48, 48);
+    opacity: 80%;
+    color: white;
+  }
+  #cardbtn:hover{
+    background-color: black;
+  }
+
+  /* CARD ANIMATIONS */
+.wrapper{
+
+    width: 100%;
+    height: 70%;
+    margin-left:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.wrapper2{
+
+  width: 100%;
+  height: 70%;
+  margin-top: 50px;
+  margin-left:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+.Jumbotron{
+  color:black;
+  margin-top: 40px;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+
+    height: 380px;
+    width: 280px;
+    background-color:rgb(252, 143, 0);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center!important;
+
+}
+
+.card::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top:-50%;
+    background-color:black;
+    transform: skewY(345deg);
+    transition:1s ease-in;
+  
+}
+
+
+.card:hover::before{
+    top:-70%;
+    transform: skewY(390deg);
+}
+
+.card .image{
+
+    position: absolute;
+    
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card .image img{
+
+    max-width: 100%;
+    transition: 2s ease-in;
+}
+
+.card:hover .image img{
+
+    width: 80%;
+}
+
+.about-product{
+
+    position: absolute;
+    color:black;
+    bottom: -50px !important;
+    text-align: center;
+    left: 20%;
+    transition: 1s ease-out;
+}
+
+
+.card:hover .about-product{
+
+   bottom: 20px !important;
+}
+
+
+.buy-now{
+    
+    color:orange;
+    background-color:black;
+    border-color: black ;
+    width: 160px;
+    margin-top: 20px;
+}
+
+
+.buy-now:focus{
+    
+    box-shadow: none;
+}
+
+.buy-now:hover{
+    color:black;
+    background-color:orange;
+    border-color:black;
+
+}
+/* <!FOOTER> */
+
+.text-small {
+  font-size: 0.9rem;
+}
+.h1{
+  color: orange;
+  font-size: x-large;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: orange;
+}
+
+.form-control {
+  background: black;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+#footer{
+  background: #212529;
+  height: 210px;
+}
+
+
+/* ==========================================
+    CUSTOM UTILS CLASSES
+  ========================================== */
+  body, html {
+    height: 100%;
+  }
+
+
+  /* PLACES PAGE */

@@ -1,0 +1,115 @@
+.heading{
+    position: relative;
+    color: black;
+    top: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .Jumbotron{
+    background-color: whitesmoke;
+    color:black;
+    margin-top: 120px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .heading2{
+    position: relative;
+    color: black;
+    top: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .heading3{
+    position: relative;
+    color:darkorange;
+    top: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .Jumbotron2{
+    background-color: whitesmoke;
+    color:black;
+    margin-top: 90px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .heading4{
+    position: relative;
+    color:darkorange;
+    top: -75px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .Jumbotron3{
+    background-color: whitesmoke;
+    color:black;
+    margin-top: -70px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .heading5{
+    position: relative;
+    color:darkorange;
+    top: -75px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .Jumbotron4{
+    background-color: whitesmoke;
+    color:black;
+    margin-top: -70px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .heading6{
+    position: relative;
+    color:darkorange;
+    top: -75px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .Jumbotron5{
+    background-color: whitesmoke;
+    color:black;
+    margin-top: -70px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+/* <!FOOTER> */
+
+body{
+
+  background-color: rgb(237, 221, 215);
+  
+  }
+.text-small {
+  font-size: 0.9rem;
+}
+.h1{
+  color: orange;
+  font-size: x-large;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: orange;
+}
+
+.form-control {
+  background: black;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+#footer{
+  background: #212529;
+  height: 210px;
+}

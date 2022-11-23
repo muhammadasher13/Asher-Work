@@ -1,0 +1,155 @@
+
+.heading{
+    position: relative;
+    color: black;
+    top: 100px;
+    text-align: center;
+  }
+  #carouselExampleIndicators
+  {
+  position: relative;
+  top: 100px;
+  }
+  .btn{
+    background-color: orangered;
+    color: white;
+  }
+  /* swipper js css */
+  html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+  
+        body {
+          background-color: rgb(237, 221, 215);  
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+  
+        .swiper {
+          width: 100%;
+          height: 50%;
+          
+          position: relative;
+          /* border: 1px solid black; */
+          top: 100px;
+        }
+  
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+  
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+  
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .card{
+            top: 120px;
+            margin-left:25px;
+            float: left;
+            text-align: center;
+            border-radius: 10px;
+            padding: 0px;
+            background-color: orange;
+            border-radius:10px ;
+        }
+        .card2{
+            margin-top: 130px;
+            margin-left:25px;
+            float: left;
+            text-align: center;
+            padding: 0px;
+            background-color: orange;
+            border-radius:10px ;
+        }
+        .catalogue{
+         position: relative;
+         color: black;
+         top: 110px;
+         text-align: center;
+
+        }
+        .entertainment{
+            position: relative;
+            color: black;
+            top: 50px;
+            text-align: center;
+          }
+        .entertainments{
+            position: relative;
+            color: black;
+            top: 110px;
+            text-align: center;
+         }
+         .carde{
+            margin-top: 130px;
+            margin-left:230px;
+            float: left;
+            text-align: center;
+            background-color: orange;
+            border-radius:10px ;
+            padding: 0px;
+        }
+ /* <!FOOTER> */
+
+.text-small {
+  font-size: 0.9rem;
+}
+.h1{
+  color: orange;
+  font-size: x-large;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: orange;
+}
+
+.form-control {
+  background: black;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+#footer{
+  background: #212529;
+  height: 210px;
+}
+
+
+/* ==========================================
+    CUSTOM UTILS CLASSES
+  ========================================== */
+  body, html {
+    height: 100%;
+  }
